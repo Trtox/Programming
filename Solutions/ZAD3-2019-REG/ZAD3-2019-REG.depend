@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553959823 source:d:\zad3-2019-reg\main.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552511164 source:d:\zad2-2017-reg\main.cpp
+	<iostream>
+	<cstdlib>
+	<stdio.h>
+

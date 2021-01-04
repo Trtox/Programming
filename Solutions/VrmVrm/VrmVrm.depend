@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1555756774 source:d:\vrmvrm\main.cpp
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<string>
+	<algorithm>
+

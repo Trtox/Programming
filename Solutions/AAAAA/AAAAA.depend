@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1575499963 source:d:\programiranje\rjesenja\aaaaa\main.cpp
+	<iostream>
+	"funkcije.h"
+	<string>
+
+1575500171 d:\programiranje\rjesenja\aaaaa\funkcije.h
+	<string>
+
+1590601634 source:d:\programiranje\rjesenja\aaaaa\main.c
+	"stdio.h"
+

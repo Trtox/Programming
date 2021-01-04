@@ -1,0 +1,3 @@
+﻿  Porez.cpp
+D:\Programiranje\Rjesenja\Visual Studio-R\Porez\Porez.cpp(10,23): warning C4305:  'initializing': truncation from 'double' to 'float'
+  Porez.vcxproj -> D:\Programiranje\Rjesenja\Visual Studio-R\Porez\Debug\Porez.exe

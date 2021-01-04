@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1550781815 source:d:\nani\main.cpp
+	<iostream>
+	<stdlib.h>
+
+1552645869 source:d:\zad1-2018\main.cpp
+	<iostream>
+	<cstdlib>
+

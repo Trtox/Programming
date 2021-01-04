@@ -1,0 +1,3 @@
+﻿  Test.cpp
+D:\Programiranje\Rjesenja\Visual Studio-R\Test\Test.cpp(12,8): error C2440:  '=': cannot convert from 'int **' to 'int'
+D:\Programiranje\Rjesenja\Visual Studio-R\Test\Test.cpp(12,6): message :  There is no context in which this conversion is possible

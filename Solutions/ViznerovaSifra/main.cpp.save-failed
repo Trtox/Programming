@@ -1,0 +1,263 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    char slovat[25];
+    char slovak[25];
+    string s,k;
+    vector<string> novikljuc,t;
+    cin>>k;
+    cin>>t;
+
+    int i;
+    int n=t.size();
+    cout<<n;
+    novikljuc=k+k+k+k+k;
+    novikljuc=novikljuc.substr(0,n);
+
+   for(char& c : t)
+    {
+       if(c=='A'|| c=='B'|| c=='C'|| c=='D'|| c=='E'|| c=='F'|| c=='G'|| c=='H'|| c=='I'|| c=='J')
+       {
+
+    for(i=0;i<n;i++)
+    {
+        switch(c)
+        {
+            case 'A' :
+            t=t.replace(i,1,"0");
+            break;
+            case 'B' :
+            t=t.replace(i,1,"1");
+            break;
+            case 'C' :
+             t=t.replace(i,1,"2");
+            break;
+            case 'D' :
+            t=t.replace(i,1,"3");
+            break;
+            case 'E' :
+             t=t.replace(i,1,"4");
+            break;
+            case 'F' :
+             t=t.replace(i,1,"5");
+            break;
+            case 'G' :
+             t=t.replace(i,1,"6");
+            break;
+            case 'H' :
+             t=t.replace(i,1,"7");
+            break;
+            case 'I' :
+             t=t.replace(i,1,"8");
+            break;
+            case 'J' :
+             t=t.replace(i,1,"9");
+            break;
+
+        }
+
+        if(novikljuc[i]=='A')
+            novikljuc=novikljuc.replace(i,1,"0");
+
+        if(novikljuc[i]=='B')
+            novikljuc=novikljuc.replace(i,1,"1");
+
+        if(novikljuc[i]=='C')
+            novikljuc=novikljuc.replace(i,1,"2");
+
+            if(novikljuc[i]=='D')
+            novikljuc=novikljuc.replace(i,1,"3");
+
+            if(novikljuc[i]=='E')
+            novikljuc=novikljuc.replace(i,1,"4");
+
+            if(novikljuc[i]=='F')
+            novikljuc=novikljuc.replace(i,1,"5");
+
+            if(novikljuc[i]=='G')
+            novikljuc=novikljuc.replace(i,1,"6");
+
+            if(novikljuc[i]=='H')
+            novikljuc=novikljuc.replace(i,1,"7");
+
+            if(novikljuc[i]=='I')
+            novikljuc=novikljuc.replace(i,1,"8");
+
+            if(novikljuc[i]=='J')
+            novikljuc=novikljuc.replace(i,1,"9");
+
+
+
+
+        }
+
+
+
+    }
+    else
+    {
+        for(i=0;i<n;i+=2)
+        {
+            switch(c)
+            {
+                case 'K' :
+            t=t.replace(i,1,"1");
+            t=t.replace(i+1,1,"0");
+            break;
+            case 'L' :
+            t=t.replace(i,1,"1");
+            t=t.replace(i+1,1,"1");
+            break;
+            case 'M' :
+           t=t.replace(i,1,"1");
+            t=t.replace(i+1,1,"2");
+            break;
+            case 'N' :
+            t=t.replace(i,1,"1");
+            t=t.replace(i+1,1,"3");
+            break;
+            case 'O' :
+           t=t.replace(i,1,"1");
+           t=t.replace(i+1,1,"4");
+            break;
+            case 'P' :
+            t=t.replace(i,1,"1");
+           t=t.replace(i+1,1,"5");
+            break;
+            case 'Q' :
+            t=t.replace(i,1,"1");
+            t=t.replace(i+1,1,"6");
+            break;
+            case 'R' :
+            t=t.replace(i,1,"1");
+            t=t.replace(i+1,1,"7");
+            break;
+            case 'S' :
+            t=t.replace(i,1,"1");
+           t=t.replace(i+1,1,"8");
+           break;
+            case 'T' :
+           t=t.replace(i,1,"1");
+           t=t.replace(i+1,1,"9");
+            break;
+            case 'U' :
+            t=t.replace(i,1,"2");
+            t=t.replace(i+1,1,"0");
+            break;
+            case 'V' :
+            t=t.replace(i,1,"2");
+           t=t.replace(i+1,1,"1");
+            break;
+            case 'W' :
+            t=t.replace(i,1,"2");
+            t=t.replace(i+1,1,"2");
+            break;
+            case 'X' :
+            t=t.replace(i,1,"2");
+            t=t.replace(i+1,1,"3");
+            break;
+            case 'Y' :
+            t=t.replace(i,1,"2");
+            t=t.replace(i+1,1,"4");
+            break;
+            case 'Z' :
+            t=t.replace(i,1,"2");
+            t=t.replace(i+1,1,"5");
+            break;
+
+            }
+            if(novikljuc[i]=='K')
+            {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"0");
+            }
+            if(novikljuc[i]=='L')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"1");
+                }
+            if(novikljuc[i]=='M')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"2");
+                }
+            if(novikljuc[i]=='N')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"3");
+                }
+            if(novikljuc[i]=='O')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+           novikljuc=novikljuc.replace(i+1,1,"4");
+                }
+            if(novikljuc[i]=='P')
+            {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"5");
+            }
+            if(novikljuc[i]=='Q')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"6");
+                }
+            if(novikljuc[i]=='R')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+           novikljuc=novikljuc.replace(i+1,1,"7");
+                }
+            if(novikljuc[i]=='S')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"8");
+                }
+            if(novikljuc[i]=='T')
+                {
+            novikljuc=novikljuc.replace(i,1,"1");
+            novikljuc=novikljuc.replace(i+1,1,"9");
+                }
+            if(novikljuc[i]=='U')
+                {
+            novikljuc=novikljuc.replace(i,1,"2");
+           novikljuc=novikljuc.replace(i+1,1,"0");
+                }
+            if(novikljuc[i]=='V')
+                {
+            novikljuc=novikljuc.replace(i,1,"2");
+           novikljuc=novikljuc.replace(i+1,1,"1");
+                }
+            if(novikljuc[i]=='W')
+                {
+            novikljuc=novikljuc.replace(i,1,"2");
+            novikljuc=novikljuc.replace(i+1,1,"2");
+                }
+            if(novikljuc[i]=='X')
+                {
+            novikljuc=novikljuc.replace(i,1,"2");
+            novikljuc=novikljuc.replace(i+1,1,"3");
+                }
+            if(novikljuc[i]=='Y')
+                {
+            novikljuc=novikljuc.replace(i,1,"2");
+            novikljuc=novikljuc.replace(i+1,1,"4");
+                }
+            if(novikljuc[i]=='Z')
+                {
+           novikljuc=novikljuc.replace(i,1,"2");
+            novikljuc=novikljuc.replace(i+1,1,"5");
+                }
+        }
+
+    }
+
+}
+cout<<novikljuc<<endl;
+cout<<t;
+
+
+    system("pause");
+    return 0;
+}

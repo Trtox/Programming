@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573400798 source:d:\programiranje\rjesenja\viznerova\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+

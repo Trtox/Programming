@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1577707116 source:d:\programiranje\rjesenja\rle\main.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+

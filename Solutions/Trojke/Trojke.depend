@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1578315640 source:d:\programiranje\rjesenja\trojke\main.cpp
+	<iostream>
+	<cmath>
+	<algorithm>
+

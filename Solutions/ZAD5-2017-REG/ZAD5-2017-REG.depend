@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552514103 source:d:\zad5-2017-reg\main.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+

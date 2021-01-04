@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1556376573 source:d:\zad5-2019-rep\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+

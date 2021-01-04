@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1550769741 source:d:\fsa\main.cpp
+	<iostream>
+	<stdlib.h>
+	<cstdio>
+	<string>
+	<cstdlib>
+	<sstream>
+

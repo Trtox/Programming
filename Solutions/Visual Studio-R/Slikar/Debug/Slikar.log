@@ -1,0 +1,6 @@
+﻿  Slikar.cpp
+D:\Programiranje\Rjesenja\Visual Studio-R\Slikar\Slikar.cpp(11,15): warning C4101:  'm': unreferenced local variable
+D:\Programiranje\Rjesenja\Visual Studio-R\Slikar\Slikar.cpp(11,12): warning C4101:  'j': unreferenced local variable
+D:\Programiranje\Rjesenja\Visual Studio-R\Slikar\Slikar.cpp(11,9): warning C4101:  'i': unreferenced local variable
+D:\Programiranje\Rjesenja\Visual Studio-R\Slikar\Slikar.cpp(11,6): warning C4101:  'n': unreferenced local variable
+  Slikar.vcxproj -> D:\Programiranje\Rjesenja\Visual Studio-R\Slikar\Debug\Slikar.exe
